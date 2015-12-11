@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <title>shegneba</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <div class="color-screen fixed-screen">
+        
+        <header class="site-header green">
+            
+     <span class="nav-trigger">
+                    <span class="nav-trigger-inside">
+                        <span class="nav-trigger-line"></span>
+                    </span>
+                </span>
+     
+      <nav class="site-menu">
+        <a href="index.html" class="show">HOME</a>
+        <a href="color.html" class= "active show">UPLOAD</a>
+        <a href="about.html" class="show">ABOUT</a>
+        <a href="process.html" class="show">PROCESS</a>
+    </nav>
+        </header>
+        
+
+    <form method="post" action="file-upload-1.html" name="submit" enctype="multipart/form-data">
+        <input type="file" name="fileFieald"><br/><br/>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>SHEGNEBA</title>
+    <meta name="keywords" content="ui, ux, interface, design, webdesign, web, garphee, razvan garofeanu, designer, flat, responsive, smartphone, mobile, template, ui/ux, user interface, user experience," />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="css/fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/resp.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+</head>
+<body class="index page-index  show-sidebar">
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-52630891-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <nav id="mobile-nav">
+        <a href="/#home">HOME</a>
+        <a href="/#upload">UPLOAD</a>
+        <a href="/#about">ABOUT</a>
+        <a href="/#process">PROCESS</a>
+    </nav>
+    <div id="site-holder">
+
+        <div id="flip" class="container" data-attr-page="0">
+
+            <div class="f-page green-bkg active" id="screen-the-g">
+
+             <!--   <div id="debugger">
+
+                </div>
+
+                <div id="content-loader-holder">
+                    <section id="content-loader">
+                        <div id="percent-value">0%</div>
+
+                        <div class="percent-bar"></div>
+
+                        <div class="tips clearfix" id="full">
+                            <div id="f11">F11</div>
+                            <p>FOR FULLSCREEN</p>
+                        </div>
+                        <div class="tips clearfix">
+                            <div id="arrow-loader">
+                                <i class="fa fa-arrows-h"></i>
+                            </div>
+                            <p id="drag-text">DRAG EDGES TO NAVIGATE</p>
+                        </div>
+
+                        <div class="percent-bar" id="bar2"></div>
+                    </section>
+                </div>
+-->
+                <div class="g-screen fixed-screen">
+                    
+
+            <header class="site-header green">
+
+                <span class="nav-trigger">
+                    <span class="nav-trigger-inside">
+                        <span class="nav-trigger-line"></span>
+                    </span>
+                </span>
+
+                <nav class="site-menu">
+                    <a href="index.html" class="active show">HOME</a>
+                    <a href="color.html" class=" show">UPLOAD</a>
+                    <a href="about.html" class=" show">ABOUT</a>
+                    <a href="process.html" class=" show">PROCESS</a>
+                   
+                </nav>
+
+                
+
+            </header>
+
+
+                </div>
+            </div>
+
+            <div class="f-page" id="screen-upload">
+
+                <div class="g-screen">
+
+                    
+
+            <header class="site-header ">
+
+                <span class="nav-trigger">
+                    <span class="nav-trigger-inside">
+                        <span class="nav-trigger-line"></span>
+                    </span>
+                </span>
+
+                <nav class="site-menu">
+                    <a href="index.html" class="show">HOME</a>
+                    <a href="color.html" class="active show">UPLOAD</a>
+                    <a href="about.html" class=" show">ABOUT</a>
+                    <a href="process.html" class=" show">PROCESS</a>
+                </nav>
+
+                <div class="fileUpload">
+                    <span class="custom-span">+</span>
+                    <p class="custom-para">Add Images</p>
+                    <input id="uploadBtn" type="file" class="upload"/>
+                </div>
+                <input id="uploadFile" placeholder="0 files selected" disabled="disabled" />
+                
+                
+                <script type="text/javascript">
+                document.getElementById(uploadBtn).onchange = function () {
+                    document.getElementById(uploadFile).value = this.value;
+                };
+                </script>
+            
+                
+            </header>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/garphee.custom.js"></script>
+    
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>UPLOAD</title>
+    <meta name="keywords" content="ui, ux, interface, design, webdesign, web, garphee, razvan garofeanu, designer, flat, responsive, smartphone, mobile, template, ui/ux, user interface, user experience," />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/main1.css" />
+</head>
+<body class="">
+    
+    <script type="text/javascript">
+        document.getElementById("uploadBtn").onchange = function () {
+            document.getElementById("uploadFile").value = this.value;
+        };
+        </script>
+        
+    
+    <div class="contact-page" id="screen-contact">
+        
+        <header class="site-header">
+            
+            <span class="nav-trigger">
+            <span class="nav-trigger-inside">
+            <span class="nav-trigger-line"></span>
+            </span>
+            </span>
+            
+            <nav class="site-menu">
+                <a href="about1.html" class="">ABOUT</a>
+                <a href="process1.html" class="">PROCESS</a>
+                <a href="upload.html" class="active">UPLOAD</a>
+                <a href="contact1.html" class="">CONTACT</a>
+            </nav>
+        </header>
+        
+    </div>
+    
+    <div class="fileUpload">
+        <span class="custom-span">+</span>
+        <p class="custom-para">ADD IMAGE</p>
+        <input id="uploadBtn" type="file" class="upload" />
+    </div>
+    <input id="uploadFile" placeholder="0 files selected" disabled="disabled" />
+
+</body>
+</html>
